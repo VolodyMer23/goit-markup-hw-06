@@ -75,25 +75,25 @@
               <form class="feedback" action="./recall.html">
                 <div class="feedback-group" role="group">
                   <label class="feedback-label" for="name">Ім'я
-                    <input class="input" type="text">
+                    <input class="input" type="text" id="name">
                     <svg class="feedback-icon" width="18" height="18">
                       <use href="./images/icons.svg#icon-person"></use>
                     </svg> 
                   </label>
-                  <label class="feedback-label" for="name">Телефон
-                    <input class="input" type="text" >
+                  <label class="feedback-label" for="phone">Телефон
+                    <input class="input" type="text" id="phone">
                     <svg class="feedback-icon" width="18" height="18">
                       <use href="./images/icons.svg#icon-phone"></use>
                     </svg>
                   </label>
-                  <label class="feedback-label" for="name">Пошта
-                    <input class="input" type="text" >
+                  <label class="feedback-label" for="mail">Пошта
+                    <input class="input" type="text" id="mail">
                     <svg class="feedback-icon" width="18" height="18">
                       <use href="./images/icons.svg#icon-email"></use>
                     </svg>
                   </label>
-                  <label class="feedback-label" for="name">Коментар
-                    <textarea class="comment-input input" rows="7" placeholder="Введіть текст"></textarea>
+                  <label class="feedback-label" for="comment">Коментар
+                    <textarea class="comment-input input" rows="7" placeholder="Введіть текст" id="comment"></textarea>
                   </label>
                 </div>
                 <div class="privacy-wrap">
@@ -479,8 +479,8 @@
         <div class="mailing" role="group">
           <strong class="mailing-title title">Підпишіться на розсилку</strong>
           <form class="mailing-form">
-            <label class="mailing-label" for="">
-              <input class="mailing-input" type="email" name="mail" placeholder="E-mail">
+            <label class="mailing-label" for="submail">
+              <input class="mailing-input" type="email" name="mail" placeholder="E-mail" id="submail">
             </label>
             <button class="mailing-btn btn" type="submit">Підписатися</button>
           </form>
